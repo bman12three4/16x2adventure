@@ -22,3 +22,10 @@ lcd.message('Select to choose\nDir to choose')
 lcd.clear()
 
 if lcd.is_pressed(UP)
+  lcd.clear()
+  lcd.message('INVESTIGATE\nYou look Around')
+  
+else if lcd.is_pressed(DOWN)
+  lcd.clear()
+  lcd.message('GO TO SLEEP\nself explanatory')
+else if lcd.is_pressed(
