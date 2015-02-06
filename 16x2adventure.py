@@ -28,4 +28,7 @@ if lcd.is_pressed(UP)
 else if lcd.is_pressed(DOWN)
   lcd.clear()
   lcd.message('GO TO SLEEP\nself explanatory')
-else if lcd.is_pressed(
+else if lcd.is_pressed(LEFT)
+  lcd.clear()
+  lcd.message('CRY FOR HELP\nAre you alone?'
+else if
